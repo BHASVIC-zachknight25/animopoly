@@ -1,0 +1,24 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Textbox here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Textbox extends Actor
+{
+    public Textbox(String text)
+    {
+        GreenfootImage img = new GreenfootImage(text, 24, Color.BLACK, Color.WHITE);
+        setImage(img);
+    }
+    /**
+     * Act - do whatever the Textbox wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act()
+    {
+        // Add your action code here.
+    }
+}
